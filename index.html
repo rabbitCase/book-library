@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heading"><b>Book Library</b></div>
+    <button id="addbook">Add book</button>
+    <div id="book-container"></div>
+    <dialog id="popup">
+        <p>Enter your book details here:</p>
+        <form action="#">
+            <label for="booktitle" class="form-labels">Title</label>
+            <input type="text" id="title" class="form-input" minlength="3">
+            <br>
+            <label for="authorname" class="form-labels">Author</label>
+            <input type="text" id="author" class="form-input" minlength="3">
+            <br>
+            <label for="pageno" class="form-labels">Page Count</label>
+            <input type="number" id="pagecount" class="form-input" min="1">
+            <br>
+            <button id="form-submit">Submit</button>
+            <button id="form-close" type="submit">Close</button>
+        </form>
+    </dialog>
+</body>
+</html>
