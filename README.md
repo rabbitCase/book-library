@@ -1,4 +1,5 @@
 # Book Library
+<a href="https://rabbitcase.github.io/book-library/">Live Preview</a>
 <ul>
   <li>A simple book library with a book title, author name, and number of pages</li>
   <li>A book object is used to store the book details</li>
