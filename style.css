@@ -79,6 +79,7 @@ dialog[open] {
 }
 .title{
     display: flex;
+    flex-wrap: wrap;
     border: 2px solid black;
     height: 70px;
     width: 180px;
